@@ -21,7 +21,7 @@ jobs:
 
       - name: Build .app with PyInstaller
         run: |
-          pyinstaller --windowed --name "PDF_Manager" PDF/PDF.py
+          pyinstaller --windowed --name "PDF_Manager" PDF.py
 
       - name: Upload the built .app
         uses: actions/upload-artifact@v4
